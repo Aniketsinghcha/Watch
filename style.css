@@ -1,0 +1,226 @@
+  :root {
+      --primary-color: #8263a3;
+     
+    }
+    
+  
+  *{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+     
+     font-family: helvetica;
+    
+  }
+  body {
+    height: 100vh;
+    width: 100vw;
+  }
+   
+  h1 {
+      position: absolute;
+      left: 35vw;
+      top:10vh;
+      right:20vw;
+      /* bottom: 20vh; */
+      font-size: 60vh;
+      font-family:  monospace;
+      color: var(--primary-color);
+      font-weight: 900;
+      
+      visibility: hidden;
+  }
+  #container {
+     display: flex;
+     height:100%;
+     width:100%;
+     background-color:#222;
+  }
+  #container div {
+    flex: 1;
+  
+  }
+  #div-1 {   
+    display: inline-block;
+   background-image: url(back.jpg);
+   background-size: cover;
+  }
+  #div-2{
+    display: inline-block;
+    background-color: rgb(22, 22, 48);
+       
+  }
+  #div-1  #nav-1 {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #div-1  #nav-1 h5 {
+    margin: 4vh 1vw 0vw 2vw ;
+    font-weight: 500;
+    font-size: medium;
+  }
+  #div-1  #nav-1 #collection {
+     margin-right: 28%;
+  }
+  #div-2 #nav-2 {
+    display: flex;
+    font-family: helvetica;
+  }
+  #img {
+    position: absolute;
+    top:33vh;
+    left:40vw;
+    height:  40vh;
+    width: 15vw;
+    visibility: hidden;
+  }
+   #div-1 #nav-1 h5:hover {
+    color: var(--primary-color);
+  }
+  #div-2  #nav-2 h5 {
+    margin: 2vh 1vw 0vw 2vw ;
+     
+    font-weight: 500;
+    font-size: medium;
+    color: whitesmoke;
+  }
+  #div-2 #nav-2 #cart {
+    margin-left: 10vw;
+  }
+  #div-2  #nav-2 h5:hover {
+    color:var(--primary-color);
+  }
+  #div-1 #por {
+    position: absolute;
+    top:43vh;
+    font-size: 9vh;
+    margin-left: 8%;
+    font-family:  Helvetica;
+    color: white;
+    letter-spacing: 1.01em;
+    visibility: hidden;
+ 
+  }
+  #div-2 #che {
+    position: absolute;
+    top:43vh;
+    font-size: 9vh;
+    margin-left: 10%;
+    margin-right: 5%;
+    font-family:  Helvetica;
+    color: white;
+    letter-spacing: 1em;
+    visibility: hidden;
+ 
+
+  }
+  #div-1 #diesel {
+    position: absolute;
+    top:25vh;
+    left:30vw;
+    font-family: helvetica;
+    font-size: 2vh;
+    font-weight: 500;
+    visibility: hidden;
+
+  }
+  #div-1 #Tough {
+    position: absolute;
+    top:75vh;
+    left:30vw;
+    font-family: helvetica;
+    font-size: 2vh;
+    font-weight: 500;
+    visibility: hidden;
+
+  }
+  #div-2 #Watches {
+    position: absolute;
+    top:25vh;
+    right:30vw;
+    font-family: helvetica;
+    font-size: 2vh;
+    color: white;
+    font-weight: 500;
+    visibility: hidden;
+
+  }
+  #div-2 #Modern {
+    position: absolute;
+    top:75vh;
+    right:30vw;
+    color: white;
+    font-family: helvetica;
+    font-size: 2vh;
+    font-weight: 500;
+    visibility: hidden;
+
+  }
+    #div-2 #footer {
+    display:flex;
+    position: absolute;
+    height: 8vh;
+    width: 100%;
+    top:90vh;
+    left:60vw;
+    font-size: medium;
+    font-family: helvetica;
+    color: white;
+    /* visibility: hidden; */
+    
+    }
+    #div-2 #footer h6 {
+      font-size: 1.8vh;
+      margin-right: 2vw;
+      visibility: hidden;
+      
+
+    }
+    #div-2 #footer h6:hover {
+       color:var(--primary-color);
+    }
+    #div-1 #trademark {
+       
+      position: absolute;
+      height: 8vh;
+      width: 30%;
+      top:92vh;
+      right:55vw;
+      left:1vw;
+      font-size: medium;
+      font-family: helvetica;
+       color: black;
+       font-size: 1.5vh;
+       visibility: hidden;
+    }
+    #div-1 #catalog {
+      position: absolute;
+       
+      top:20vh;
+      left:5vw;
+      transform: rotate(90deg);
+      padding: 2px;
+      border:1px solid #222;
+      visibility: hidden;
+       
+
+    }
+    #div-2 #print {
+      position: absolute;
+        font-size: medium;
+      top:50vh;
+      left:90vw;
+      transform: rotate(90deg);
+      padding: 2% 2% 2% 2%;
+      padding: 2px;
+      border:1px solid white;
+      color: white;
+      visibility: hidden;
+    }
+
+
+    
+    
+   
+
+   

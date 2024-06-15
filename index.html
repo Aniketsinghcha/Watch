@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <h1 id="S">S</h1>
+   <img src="watch.png" id="img">
+   <div id="container">
+    <div id="div-1">
+        <a id="catalog">CATALOG</a>
+        <h6 id="por">POR</h6>
+        <h6 id="diesel">Diesel</h6>
+        <h6 id="Tough">Tough</h6>
+        <div id="nav-1">
+            <h5><b>Diesel</b></h5>
+            <h5>Store</h5>
+            <h5>shop</h5>
+            <h5 id="collection">collection</h5>
+        </div>
+        <div id="trademark">
+            <h7>Copyright @ 2024 Harsh Singh Chauhan.All rights reserved</h7>
+        </div>
+    </div>
+   <div id="div-2"> 
+    <a id="print">PRINT</a>
+    <h6 id="che">CHE</h6>
+    <h6 id="Watches">Watches</h6>
+    <h6 id="Modern">Modern</h6>
+    
+    <div id="nav-2">
+    <h5 id="cart"><b>Cart</b></h5>
+    <h5>Login/register</h5>
+    <h5>Profile</h5>
+    <div id="footer">
+        <h6 id="fb">FaceBook</h6>
+        <h6 id="ins">Instagram</h6>
+        <h6 id="twi">Twitter</h6>
+    </div>
+</div></div>
+   </div>
+   
+   <script>
+    let elementHidden_id=['S','img','por','che','diesel','Tough'
+,'Modern','Watches','trademark','catalog','print','fb','ins','twi'];
+    let idx=0;
+    let makeElementVisible=()=>{
+        if(idx==elementHidden_id.length){
+            clearInterval(interval);
+            return;
+        }
+        let selectedElement=document.querySelector(`#${elementHidden_id[idx]}`);
+        selectedElement.style.visibility='visible';
+        selectedElement.style.transistion="ease-in-out";
+        idx++;
+    }
+    let interval=setInterval(makeElementVisible,300);
+
+   </script>
+</body>
+    
+    
+ 
+</html>
